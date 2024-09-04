@@ -1,7 +1,7 @@
-function App() {
-<>
-    <h1>Hello Quiz App</h1>
-</>
-}
+import Header from "./components/Header";
 
-export default App;
+export default function App() {
+    return (
+        <Header />
+    )
+}
