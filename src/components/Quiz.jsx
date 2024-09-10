@@ -23,6 +23,7 @@ export default function Quiz() {
             <h2>Quiz Completed!</h2>
         </div>
     }
+    
     const suffledAnswer = [...QUESTIONS[activeQuestionsIndex].answers];
     suffledAnswer.sort((a, b) => Math.random() - 0.5);
 
